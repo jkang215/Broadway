@@ -7,21 +7,6 @@ p {
   font-size: 14px;
 }
 
-.header,
-#designed,
-.footer {
-  color: white;
-}
-
-.header,
-#designed {
-  background-image: url("../images/the-flatiron-building.png");
-}
-
-.header p {
-  font-size: 18px;
-}
-
 h2 {
   font-size:32px;
   font-weight:bold;
@@ -32,8 +17,20 @@ h3 {
   font-weight:bold;
 }
 
+.header,
+#designed,
+.footer,
 a {
-  color:white;
+  color: white;
+}
+
+.header,
+#designed {
+  background-image: url("../images/the-flatiron-building.png");
+}
+
+.header p {
+  font-size: 18px;
 }
 
 .footer {
